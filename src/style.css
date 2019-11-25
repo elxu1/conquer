@@ -29,13 +29,9 @@
   }
 
   .nav-btn {
+    text-align: center;
     font-size: 17px;
     padding: 10px;
-  }
-
-  .nav-container {
-    height: 0px;
-    position: relative;
   }
 
   #nav-collapse {
@@ -50,7 +46,6 @@
   }
 
   #navbar {
-    display: flex;
     flex-direction: column;
     visibility: hidden;
     width: 100%;
@@ -71,7 +66,6 @@
 
   #navbar {
     visibility: visible;
-    display: flex;
     flex-direction: row;
     justify-content: center;
   }
@@ -91,6 +85,11 @@
   }
 }
 
+ol {
+  list-style-type: none;
+  margin: 0px;
+}
+
 .nav-btn {
   background-color: #40384a;
   transition: background 0.2s ease-in-out;
@@ -103,6 +102,10 @@
 .active,
 .nav-btn:hover {
   background-color: #473e52;
+}
+
+#navbar{
+  display: flex;
 }
 
 /*
